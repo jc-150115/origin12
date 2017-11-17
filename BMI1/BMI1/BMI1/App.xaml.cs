@@ -11,7 +11,7 @@ namespace BMI1
     {
         public App()
         {
-            InitializeComponent();//
+            InitializeComponent();
 
             MainPage = new BMI1.MainPage();
         }

@@ -5,9 +5,22 @@
              x:Class="XAMARIN010.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+
+
+            <ContentView BackgroundColor="Aqua">
+                <Entry Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                        x:Name="messageText" />
+            </ContentView>
+
+            <ContentView BackgroundColor="Crimson">
+                <Button Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                    Clicked="Button_Clicked" />
+            </ContentView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

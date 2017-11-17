@@ -13,5 +13,10 @@ namespace XAMARIN010
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("XAMARIN010", this.messageText. Text, "OK");
+        }
+    }
 }
